@@ -6,6 +6,9 @@ import sys
 
 def main():
     try:
+        if len(sys.argv) > 3:
+            print("Error input")
+            exit(1)
         n = sys.argv[1]
         m = sys.argv[2]
         lst = int(m) * [int(i) for i in range(1, int(n) + 1)]
