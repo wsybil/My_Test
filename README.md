@@ -20,5 +20,5 @@
 |Click the back button. |A page opens for selecting a donation amount (the data entered is not saved). |
 |Click the continue button.| The payment screen page opens.|
 |Entry field Credit or debit card| As you enter - the numbers are fixed and hidden. |
-|After entering the correct card number, the pay button becomes active. The button displays the amount including bank charges.| When clicked, payment is made. |
+|After entering the correct card number, the pay button becomes active. The button displays the amount including bank charges (+2,5%).| When clicked, payment is made. |
 
