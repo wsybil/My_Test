@@ -9,5 +9,12 @@
 ||When entering manually, the entered amount is displayed in the input field. If you enter less than 5, the amount automatically becomes 5.|
 |To the right of the donation amount entry field is a clickable drop-down menu for currency selection - from several values EUR, GBP, USD| Currency selection is fixed. No currency conversion. |
 |Below the drop-down menu is the percentage of service charge - choose from several values, 5%, 7%, 10%.|When selected, the value is fixed.|
+|Click the continue button.|Opens the donor data entry page and the message from the donor.|
+|The field your message (Optional). Remaining: 150|As you type, the text of the message is displayed. If you enter more than 150 characters, the input stops.|
+|The Fields Your Name (Optional)|When you enter a first name - the text is displayed. If you enter a last name, the text is displayed.|
+|The Field with checkbox. Appear as an Anonymous Donor publicly on the fundraising page.|If you select - the first name fields become inactive.|
+|The Field Email Address (Mandatory)|When you enter - the email is displayed and fixed.|
+|||
+|||
 |||
 
