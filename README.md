@@ -35,7 +35,7 @@
 |Steps to Playback|Test case №1. Correct - Last step|
 |Actual result|After entering the correct card number, the pay button becomes active. But the button does not display the correct amount including the bank commission (+2,5%).|
 |Expected result|After entering the correct card number, the pay button becomes active. The button displays the amount including bank charges (+2,5%).|
-|Attachment|![Incorrect](My_Test/Screenshot.png)|
+|Attachment|![Incorrect](screenshots/Screenshot.png)|
 
 #### The Bug Report №2.
 | ID        | 2 |
@@ -50,4 +50,4 @@
 |Steps to Playback|Test case №1. Correct - Step: Entry field Credit or debit card|
 |Actual result|After trying to pay with an invalid card number, the payment button is blocked.|
 |Expected result|When clicked, payment is made.|
-|Attachment|![Inactive](My_Test/Screenshot2.png)|
+|Attachment|![Inactive](screenshots/Screenshot2.png)|
