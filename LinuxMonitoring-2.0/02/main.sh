@@ -1,19 +1,24 @@
 #!/bin/bash
+START=$(date +%s%N)
+TIMES=$(date +%H:%M)
 
-chmod +x ./error_checking.sh
-chmod +x ./run.sh
-chmod +x ./time.sh
+if [[ $# == 3 ]]; then
+    export firstParam=$1
+    export secondParam=$2
+    export thirdParam=$3
+    
+    ./validation.sh
+    END=$(date +%s%N)
+    DIFF=$((($END - $START)/1000000))
+    TIMEE=$(date +%H:%M)
+    echo "Start time: $TIMES"
+    echo "End time: $TIMEE"
+    echo "Script working $DIFF ms"
 
-if [[ $# == 3 ]];
-then
-    export start=$(date +%s%N)
-    export time=$(date +%H:%M)
-    export one=$1
-    export two=$2
-    export three=$(echo $3 | awk -F"Mb" '{print $1}')
-
-    ./error_checking.sh
-
+    echo "">>logFiles
+    echo "Start time: $TIMES" >>logFiles
+    echo "End time: $TIMEE" >>logFiles
+    echo "Script working $DIFF ms" >>logFiles
 else
-    echo "The script is run with 3 parameters."
+    echo "Wrong count of params"
 fi
